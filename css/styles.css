@@ -310,11 +310,26 @@ color: var(--text-color-white);
     color: var(--title-text-color);
     
    }
-.benefits-item-card::before{
+   .icon-benefits{
+    width: 70px;
+    height: 70px;
+   }
+   
+    .benefits-picture{ 
+    height: 120px;
+
+    background-color: var(--bgc-section);
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+/* .benefits-item-card::before{
     display: block;
     content: '';
     height: 120px;
-    /* background-size: contain; */
+    
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--bgc-section);
@@ -332,7 +347,7 @@ color: var(--text-color-white);
 }
 .benefits-item-card.icon-astronaut::before{
     background-image: url("../images/astronaut.svg");
-}
+} */
 .benefits-item-card{
 }
 .benefits-list > .benefits-item-card
