@@ -211,7 +211,16 @@ fill: currentColor;
 
 /* Hero-section */
 .hero-field
-   {       
+{ 
+    max-width: 1600px;
+    height: 600px;  
+    background-color: #C4C4C4;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url("../images/hero-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: auto;      
 }
 
 .hero-content{
@@ -581,8 +590,7 @@ fill: currentColor;
 .card{
   
 }
-.portfolio-card
-{
+
     
 }
 .portfolio-item{
@@ -624,8 +632,8 @@ fill: currentColor;
 .portfolio-button-list
 {  display: flex;
     justify-content: center;
-    margin-bottom: 34px;
-    padding-bottom: 16px;
+    margin-bottom: 50px;
+    
    }
    .portfolio-button-item:not(:last-child){
        margin-right: 8px;
@@ -734,14 +742,7 @@ margin-bottom: 9px;
 
 .hero-background
 {
-    max-width: 1600px;
-    height: 600px;  
-    background-color: #C4C4C4;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url("../images/hero-image.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
+   
 } 
 .title-join{
 font-weight: 700;
